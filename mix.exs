@@ -34,9 +34,9 @@ defmodule Algae.Mixfile do
       {:earmark, "~> 1.4.0", only: :dev},
       {:ex_doc, "~> 0.21.2", only: :dev},
       {:inch_ex, "~> 2.0", only: [:dev, :docs, :test]},
-      {:quark, "~> 2.3"},
-      {:type_class, "~> 1.2"},
-      {:witchcraft, "~> 1.0"}
+      {:quark, git: "https://github.com/jechol/quark.git", branch: "master"},
+      {:type_class, git: "https://github.com/jechol/type_class.git", branch: "master"},
+      {:witchcraft, git: "https://github.com/jechol/witchcraft.git", branch: "master"}
     ]
   end
 
